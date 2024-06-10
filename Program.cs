@@ -20,8 +20,6 @@ namespace Seminar_2._Homework
         {
             int[,] matrix = { { 7, 3, 2 }, { 4, 9, 6 }, { 1, 8, 5 } };
 
-            // int[] testLine = {  0, 1, 2, 3, 9, 6, 1, 8 };
-
             int[] linearArray = new int[matrix.Length];
             int rows = matrix.GetLength(0);
 
@@ -31,8 +29,6 @@ namespace Seminar_2._Homework
             linearArray = convertMatrixToLine(matrix);
 
             linearArray = mergeSort(linearArray);
-
-            // linearArray = testLine;
 
             try
             {

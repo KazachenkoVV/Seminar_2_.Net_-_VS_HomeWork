@@ -1,1 +1,1 @@
-# Seminar 2. Homework
+# Курс: Погружение в С# Семинар к Уроку 2. Начало работы: .Net и Visual Studio
